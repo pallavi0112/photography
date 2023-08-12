@@ -1,0 +1,54 @@
+/* Navbar.css */
+.navbar-container-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent; /* Transparent background */
+    z-index: 999; /* Place the navbar on top */
+  }
+  
+  .navbar-container {
+    width: 85vw;
+    max-width: 1200px; /* Set a maximum width to avoid stretching on large screens */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+  }
+  
+  .navbar-container .navbar-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-container .navbar-menu-split-left {
+    flex: 1;
+  }
+  
+  .navbar-container .navbar-menu-split-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-menu ul li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-menu ul li a {
+    color: #fff;
+    font-size:0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* Add your other styles here */
+  
