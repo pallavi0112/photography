@@ -92,6 +92,6 @@
       margin:1rem 0;
     }
     .accordion-container{
-      flex-direction: column;
+      flex-direction:column;
     }
 }
