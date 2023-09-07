@@ -1,15 +1,14 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, {useEffect } from 'react';
 import './Header.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectFade, Pagination, Navigation , Autoplay } from 'swiper/modules';
+import { EffectFade, Pagination,  Autoplay } from 'swiper/modules';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import img1 from '../../Images/Header/img1.jpg'
-import img2 from '../../Images/Header/img2.jpg'
 import img3 from '../../Images/Header/img3.jpg'
 import img4 from '../../Images/Header/img4.jpg'
 import img5 from '../../Images/Header/img5.jpg'
@@ -18,7 +17,6 @@ import img7 from '../../Images/Header/img7.jpg'
 import img8 from '../../Images/Header/img8.jpg'
 import img9 from '../../Images/Header/img9.jpg'
 import img10 from '../../Images/Header/img10.jpg'
-import img11 from '../../Images/Header/img11.jpg'
 import img12 from '../../Images/Header/img12.jpg'
 import img13 from '../../Images/Header/img13.jpg'
 
@@ -114,8 +112,8 @@ const Header = () => {
                     </SwiperSlide>
                 </Swiper>
                 <div className='header-content'>
-                     <span>CS PHOTOGRAPHY</span>
-                     <p>Adjust the image position within the imgBx</p>
+                     <span>LOVE TO PHOTOGRAPHY</span>
+                     <p>Photography isn't just about freezing time; it's about creating memories that live on forever.</p>
                 </div>
             </div>
         </>

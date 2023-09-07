@@ -1,7 +1,11 @@
 import React from 'react'
 import './Category.css'
-import CategoryItem from './CategoryItem'
 import img1 from '../../Images/Header/img14.jpg'
+import anniversary from '../../Images/weddinganniversary.jpeg'
+import birthdayimg from '../../Images/birthdayimg.jpg'
+import maternity from '../../Images/maternity.jpg'
+import engagement from '../../Images/engagement.jpg'
+import prewed from '../../Images/prewed.jpg'
 import { Link } from 'react-router-dom'
 import {AiOutlineDoubleRight} from 'react-icons/ai'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,18 +13,18 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectFade, Pagination, Navigation, Autoplay } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 const Category = () => {
     const data = [
         {
             title: "Engagement",
             path: "/engagement",
-            img: img1
+            img: engagement
         },
         {
             title: "Pre wedding",
             path: "/pre-wedding",
-            img: img1
+            img: prewed
         },
         {
             title: "Wedding",
@@ -30,17 +34,17 @@ const Category = () => {
         {
             title: "Maternity",
             path: "/maternity",
-            img: img1
+            img: maternity
         },
         {
             title: "Birthday",
             path: "/birthday",
-            img: img1
+            img: birthdayimg
         },
         {
             title: "Anniversary",
             path: "/anniversary",
-            img: img1
+            img: anniversary
         }
     ]
 
@@ -60,7 +64,7 @@ const Category = () => {
                         centeredSlides={true}
                         spaceBetween={0}
                         autoplay={{
-                        delay: 6000,
+                        delay: 4000,
                         disableOnInteraction: false,
                     }}
                     navigation={{
