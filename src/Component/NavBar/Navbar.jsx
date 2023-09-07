@@ -13,7 +13,7 @@ const Navbar = () => {
             <li><Link to='/'>About</Link></li>
           </ul>
         </div>
-        <Link to='/'><img/></Link>
+        {/* <Link to='/'><img/></Link> */}
         <div className='navbar-menu navbar-menu-split-right'>
           <ul>
             <li><Link to='/'>Blog</Link></li>

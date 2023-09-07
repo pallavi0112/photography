@@ -30,7 +30,7 @@ const PhotoGallery = () => {
                 <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                     <Masonry gutter={4}>
                         {images.map((image) => (
-                            <img src={image} />
+                            <img src={image} alt='gallery'/>
                         ))}
                     </Masonry>
                 </ResponsiveMasonry>

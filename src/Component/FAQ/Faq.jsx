@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { data } from './FAQData'
 import './Faq.css'
 import AccordionItem from './AccordionItem';
-import img1 from '../../Images/Header/img9.jpg'
-import img2 from '../../Images/Header/img10.jpg'
-import img3 from '../../Images/Header/img11.jpg'
+import faq1 from '../../Images/Header/img9.jpg'
+import faq2 from '../../Images/Header/img10.jpg'
+import faq3 from '../../Images/Header/img11.jpg'
 
 const Faq = () => {
     const [expandedIndex, setExpandedIndex] = useState(-1);
@@ -34,9 +34,9 @@ const Faq = () => {
             </div>
             <div className='accordion-container-right'>
                 <div className='imgBx'>
-                    <img src={img2} alt='Image 2' />
-                    <img src={img1} alt='Image 1' />
-                    <img src={img3} alt='Image 3' />
+                    <img src={faq2} alt='faq 2' />
+                    <img src={faq1} alt='faq 1' />
+                    <img src={faq3} alt='faq 3' />
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ import NumberCounter from './NumberCounter'
 import FAQ from './FAQ'
 import Category from '../Component/Category/Category'
 import PhotoGallery from '../Component/Gallery/PhotoGallery'
-import InstagramFeed from '../Component/Insta/Insta'
+// import InstagramFeed from '../Component/Insta/Insta'
 import Footer from '../Component/Footer/Footer'
 const Home = () => {
   return (
